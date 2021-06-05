@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="em">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatroom</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+</head>
+<body>
+    <div class="container pt-5">
+        <h1>A Chatroom in 2021</h1>
+
+        <br>
+
+        <div class="card">
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-sm">
+                        <div class="form-group">
+                            <label for="new-name">Name</label>
+                            <input type="text" class="form-control" id="new-name">
+
+                            <label for="new-topic">Topic</label>
+                            <input type="topic" class="form-control" id="new-topic">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <button id="send-new-topic" class="btn btn-success bg-gradient form-control">Log into Chat</button>
+            </div>
+        </div>
+        <br>
+
+        <div id="thread">
+
+        </div>
+
+    </div>
+    <script src="chatroom.js"></script>
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</body>
+</html>
